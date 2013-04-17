@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /><title>My footprint</title>
+</head>
+
+<body>
+ <script type="text/javascript" src="cordova-2.6.0.js"></script>
+        <script type="text/javascript" src="js/geolocation.js"></script>
+<p><img src="img/Maps-and-Geolocation-Street-view-icon.png" width="48" height="48" /> 
+     <input type="button" name="recOn" id="recOn" value="Start record." onclick="getGeoLocaion();" />
+</p>
+<p><div style="display:none" id="err"><img src="img/Broadcast-icon.png" width="48" height="48" />...Geolocation watch error.</p></div>
+<p>經度:
+  <input name="longitxt" type="text" id="longitxt" readonly="readonly" />
+</p>
+<p>緯度:  <input name="latitxt" type="text" id="latitxt" readonly="readonly"  /></p>
+</body>
+</html>
